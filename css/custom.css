@@ -1,0 +1,42 @@
+.me {
+  width: 45vw;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.me:hover {
+  filter: none;
+}
+
+.card-img-top{
+  filter: grayscale(100%);
+  width: 100%;
+}
+
+.card-img-top:hover {
+  filter: none;
+}
+
+.card {
+  margin: 5%;
+  height: fit-content;
+}
+.skill {
+  border-style: solid;
+  border-bottom-left-radius: 5px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  padding: 7px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.projectInfo {
+  border-style: solid;
+  border-bottom-left-radius: 5px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  padding: 7px;
+  text-align: center;
+  margin-bottom: 30px;
+}
