@@ -43,3 +43,15 @@
   text-align: center;
   margin-bottom: 30px;
 }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  
+  .smallerSkill{
+    font-size: 16px;
+  }
+
+  .skill{
+    height: 90%
+  }
+
+}
