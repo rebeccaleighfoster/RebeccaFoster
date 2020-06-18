@@ -178,3 +178,34 @@
   margin-bottom: 3px;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
+
+@media print { 
+  .top-bar {
+    height: 250px;
+    background-color: #eee;
+    color: #fff;
+  }
+
+  .separator {
+    width: 240px;
+    height: 2px;
+    background-color: #999;
+  }
+
+  .side-bar {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    width: 350px;
+    color: #fff;
+    background: #333;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 30px 30px 50px;
+    margin-bottom: 10px;
+    font-family: "Cardo", "Times New Roman", Times, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+  }
+ }
